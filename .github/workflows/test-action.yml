@@ -7,4 +7,6 @@ jobs:
       - name: Print Greeting
         run: echo "Hello .. you can use scripts here too"
       - name: Done Bye
-        run: echo "Done ... Bye"
+        run: | 
+          echo "Example using multiple lines"
+          echo "Done ... Bye"
