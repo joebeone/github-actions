@@ -2,12 +2,12 @@ name: Output information
 on: workflow_dispatch
 jobs:
   print-env:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print envrionment variables
         run: env
   info:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output Github context
         run: echo "${{toJSON(github)}}"
